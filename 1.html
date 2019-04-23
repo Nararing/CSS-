@@ -3,7 +3,6 @@
 <head>
   <title>web1 - 전공</title>
   <meta charset="utf-8">
-<link rel="stylesheet"href="style.css">
 </head>
 <body>
   <h1><a href="index.html"style="color:purple">NARA</a></h1>
@@ -13,13 +12,52 @@
       <li><a href="2.html">복수전공</a></li>
       <li><a href="3.html">취미</a></li>
     </ol>
+    <style>
+    body{
+      margin:0;
+    }
+
+    a{color:black;
+  text-decoration: none;
+}
+    h1 { font-size:50px;
+      text-align: center;
+      margin:0;
+      padding:20px;
+      border-top:0px;
+      border-bottom:5px;
+      border-style: solid;
+      border-color: pink;
+    }
+    ol{
+      border-right:5px solid pink;
+      width:100px;
+      margin:0;
+      padding:20px;
+      }
+      #grid{
+      display:grid;
+      grid-template-columns:150px 1fr;
+      }
+      #grid ol{
+        padding-left: 24px;
+      }
+      @media(max-width:800px){
+      #grid{
+        display:block;
+      }
+      ol{
+        border-right:none;
+      }
+      h1{
+        border-bottom:none;
+      }
+      </style>
 <div>
 
 
 <h2>디지털인문예술전공</h2>
-<p><a href="https://sites.google.com/view/dah-hallym"
-  target="_blank" title="html5
-  specification">디지털인문예술전공은 디지털기술의 비약적인 발전은 인문학의 근본적인 변화를 요구하는 동시에 인문학의 가능성을 획기적으로 증대시키고 있다.
+<p>디지털인문예술전공은 디지털기술의 비약적인 발전은 인문학의 근본적인 변화를 요구하는 동시에 인문학의 가능성을 획기적으로 증대시키고 있다.
   디지털 기술은 또한 오랜 세월 동안 쌓인 인문학의 지적 자산과 미적 감각, 창의력을 절실하게 필요로 하고 있다.
   여기에 디지털 기술과 인문학이 화학적으로 결합할 필요성이 있다. 디지털인문예술 융합전공은 디지털 문명과 기술에 대한 인문학적 성찰과 함께
    문화와 예술에 대한 감각을 바탕으로 디지털 매체를 활용하여 새로운 것을 창조하는 능력을 함양시킬 것이다.
@@ -38,6 +76,8 @@
 
 문화 기획, 창작, 웹/소셜 미디어 활용 홍보, 박물관/도서관/미술관 디지털 큐레이션, 디지털 리터러시 교육
     </p>
+    <img src="gg.jpg" height="230" width="200">
+    <p><a href="https://sites.google.com/view/dah-hallym"><strong>디지털인문예술사이트 바로가기</strong></a></p>
     </div>
 </div>
  </body>
